@@ -163,7 +163,7 @@ $(document).ready(function() {
 
 		var rap_out = 0;
 
-		var p1 = get_orbit_params( r0, v0, Planet );
+		var p1 = get_orbit_params( r0, v0, Planet );console.log(p1);
 
 		// Short-circuit tests
 		if (p1.rpe < Planet.Rmin) {
